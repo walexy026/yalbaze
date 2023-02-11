@@ -1,3 +1,14 @@
-.e {
-  background-color: red;
+nav {
+  //   background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+.btn {
+  cursor: pointer;
+  background: #121b27;
+  color: #fcfcfc;
+  border-radius: 10px;
+  padding: 10px 15px;
 }
