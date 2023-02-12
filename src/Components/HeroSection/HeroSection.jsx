@@ -1,5 +1,7 @@
 import React from "react";
 import "./HeroSection.scss";
+import { FiMail } from "react-icons/fi";
+import { BsPersonCircle } from "react-icons/bs";
 // import {Fa-ring} from 'react-icons/fa'
 export const HeroSection = () => {
   return (
@@ -22,7 +24,7 @@ export const HeroSection = () => {
         <form action="">
           <label htmlFor="text">
             <input type="text" name="" placeholder="Tell us your name" id="" />
-            {/* <Fa-ring /> */}
+            <BsPersonCircle />
           </label>
           <label htmlFor="email"></label>
           <input
@@ -31,6 +33,7 @@ export const HeroSection = () => {
             placeholder="Enter your email address"
             id=""
           />
+          <FiMail />
           <button className="btnForm" type="submit">
             Get early access
           </button>
