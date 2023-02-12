@@ -6,7 +6,7 @@ import { ConsultForm } from "../ConsultForm/ConsultForm";
 export const Priotize = () => {
   return (
     <div className="priotizeSection">
-      <div>
+      <div className="priptizeText">
         <h2>Priority Access</h2>
         <img src={zigzag} alt="zigzag" />
         <p>

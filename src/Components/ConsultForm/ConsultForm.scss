@@ -1,9 +1,45 @@
 .consultForm {
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #fcfcfc;
+  }
+  text-align: center;
+  flex: 25%;
   background-color: #1d2939;
   .formConsult {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 0.5rem;
+    height: 500px;
+    border-radius: 10px;
+    input {
+      width: 15rem;
+      height: 3rem;
+      padding: 1rem 2rem;
+      background-color: transparent;
+      border-radius: 5px;
+    }
+    textarea {
+      background-color: transparent;
+      border: 2px solid #fcfcfc;
+      border-radius: 5px;
+    }
+    .btnForm {
+      background: linear-gradient(
+        112.92deg,
+        #5404ff 18.35%,
+        rgba(189, 59, 210, 0.94) 71.49%
+      );
+      width: 20rem;
+      border-radius: 50px;
+      color: #fcfcfc;
+      padding: 1rem 2rem;
+      border: none;
+    }
   }
 }

@@ -18,10 +18,11 @@ export const ConsultForm = () => {
         <textarea
           name=""
           id=""
-          cols="23"
-          rows="5"
+          cols="40"
+          rows="15"
           placeholder="Drop a message....."
         ></textarea>
+        <button className="btnForm">Send Request</button>
       </form>
     </div>
   );
