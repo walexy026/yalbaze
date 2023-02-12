@@ -72,8 +72,26 @@
     input {
       border-radius: 10px;
       padding: 1rem 2rem;
-      width: 15rem;
+      // width: 15rem;
+      // outline: #fcfcfc;
+      border: none;
       background-color: transparent;
+      &:focus {
+        outline: none;
+      }
+    }
+    .formTx {
+      position: relative;
+      width: 20rem;
+      border: 2px solid #fcfcfc;
+      border-radius: 10px;
+    }
+    .formEm {
+      @extend .formTx;
+      // position: relative;
+      // border-radius: 10px;
+      // width: 20rem;
+      // border: 2px solid #fcfcfc;
     }
     .btnForm {
       background: linear-gradient(
@@ -82,7 +100,7 @@
         rgba(189, 59, 210, 0.94) 71.49%
       );
       width: 20rem;
-      border-radius: 100px;
+      border-radius: 50px;
       color: #fcfcfc;
       padding: 1rem 2rem;
       border: none;

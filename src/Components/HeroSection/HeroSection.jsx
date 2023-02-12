@@ -22,18 +22,38 @@ export const HeroSection = () => {
           business. Sign up now to get early access.
         </p>
         <form action="">
-          <label htmlFor="text">
+          <div className="formTx">
+            <label htmlFor="text"></label>
             <input type="text" name="" placeholder="Tell us your name" id="" />
-            <BsPersonCircle />
-          </label>
-          <label htmlFor="email"></label>
-          <input
-            type="email"
-            name=""
-            placeholder="Enter your email address"
-            id=""
-          />
-          <FiMail />
+            <BsPersonCircle
+              color="white"
+              style={{
+                position: "absolute",
+                left: "10px",
+                top: "12px",
+                fontSize: "1.5rem",
+              }}
+            />
+          </div>
+          <div className="formEm">
+            <label htmlFor="email"></label>
+            <input
+              type="email"
+              name=""
+              placeholder="Enter your email address"
+              id=""
+            />
+
+            <FiMail
+              color="white"
+              style={{
+                position: "absolute",
+                left: "10px",
+                top: "12px",
+                fontSize: "1.5rem",
+              }}
+            />
+          </div>
           <button className="btnForm" type="submit">
             Get early access
           </button>
