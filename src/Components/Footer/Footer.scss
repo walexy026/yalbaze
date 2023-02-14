@@ -1,12 +1,36 @@
-footer {
+.footer {
+  margin: 2rem 0.5rem;
+  hr {
+    width: 90%;
+  }
   ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 2rem;
     align-items: center;
+    li:nth-child(1) {
+      display: flex;
+      align-items: center;
+      width: 25%;
+      gap: 0.7rem;
+      img {
+        align-self: flex-start;
+      }
+    }
+    li:nth-child(3) {
+      margin-right: 3rem;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
     li {
       text-decoration: none;
       list-style: none;
       color: #fcfcfc;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
     }
   }
 }
