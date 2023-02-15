@@ -1,4 +1,6 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
 .App {
+  font-family: "Satoshi", sans-serif;
   background: #121b27;
   /* max-height: fit-content; */
   padding: 2rem 1rem;

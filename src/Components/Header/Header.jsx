@@ -6,10 +6,10 @@ import Buttton from "../Buttton";
 export const Header = () => {
   return (
     <div>
-      {/* <nav>
+      <nav>
         <img src={Logo} alt="Logo" />
         <Buttton title="Get Priority Access" />
-      </nav> */}
+      </nav>
     </div>
   );
 };

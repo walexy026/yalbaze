@@ -1,8 +1,12 @@
 nav {
-  // display: flex;
-  // justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  // padding: 2rem 4rem;
+  padding: 2rem 2rem;
+  img {
+    width: 100px;
+    height: auto;
+  }
 }
 .btn {
   cursor: pointer;
