@@ -1,26 +1,48 @@
 .priotizeSection {
   margin-top: 1rem;
   display: flex;
-  gap: 2rem;
+  // justify-content: center;
+  gap: 1rem;
   .priptizeText {
     text-align: center;
     flex: 40%;
     color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     h2 {
       font-style: normal;
       font-weight: 700;
       font-size: 64px;
       line-height: 130%;
-      margin-bottom: auto;
     }
-    p {
+    #Ptx {
       font-style: normal;
       font-weight: 500;
       font-size: 24px;
-      line-height: 130%;
-      width: 700px;
-      margin-left: 2rem;
-      margin-right: 2rem;
+      max-width: 525px;
+      text-align: justify;
+      display: inline;
+      // transform: translateX(12rem);
+      // margin-left: 5rem;
+      // margin-right: 5rem;
     }
+  }
+}
+
+// @media only screen and (max-width: 1000px) {
+//   .priptizeText p {
+//     margin-left: 0rem !important;
+//   }
+// }
+// @media only screen and (max-width: 600px) {
+//   body {
+//     background-color: lightblue;
+//   }
+// }
+@media only screen and (max-width: 870px) {
+  .priotizeSection {
+    flex-direction: column;
   }
 }

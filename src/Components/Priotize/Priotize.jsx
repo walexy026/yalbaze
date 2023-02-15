@@ -9,7 +9,7 @@ export const Priotize = () => {
       <div className="priptizeText">
         <h2>Priority Access</h2>
         <img src={zigzag} alt="zigzag" />
-        <p>
+        <p id="Ptx">
           Get ready to revolutionize the way you interact with your customers
           and drive sales with Loyalbaze. Skip the waitlist and get exclusive
           priority access to LoyalBaze. Limited slots available. Please tell us

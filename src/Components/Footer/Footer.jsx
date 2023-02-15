@@ -16,7 +16,7 @@ export const Footer = () => {
         </li>
         <li>Loyalbaze is almost here.</li>
         <li>
-          <FiPhoneCall fontSize="1rem" />
+          <FiPhoneCall fontSize="1rem" color="white" />
           +234 903 618 9485
         </li>
       </ul>
