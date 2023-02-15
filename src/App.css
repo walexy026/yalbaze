@@ -1,5 +1,6 @@
 .App {
   background: #121b27;
-  max-height: fit-content;
+  /* max-height: fit-content; */
   padding: 2rem 1rem;
+  overflow: hidden;
 }

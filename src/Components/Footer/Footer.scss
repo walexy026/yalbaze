@@ -1,7 +1,7 @@
 .footer {
   margin: 2rem 0.5rem;
   hr {
-    width: 90%;
+    width: 89%;
   }
   ul {
     display: flex;
@@ -13,9 +13,9 @@
       align-items: center;
       width: 25%;
       gap: 0.7rem;
-      img {
-        align-self: flex-start;
-      }
+      // img {
+      //   align-self: flex-start;
+      // }
     }
     li:nth-child(3) {
       margin-right: 3rem;
