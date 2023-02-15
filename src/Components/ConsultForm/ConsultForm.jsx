@@ -1,4 +1,5 @@
 import React from "react";
+import star from "../../Assets/Star2.svg";
 import "./ConsultForm.scss";
 export const ConsultForm = () => {
   return (
@@ -25,6 +26,7 @@ export const ConsultForm = () => {
           ></textarea>
         </div>
         <button className="btnForm">Send Request</button>
+        <img src={star} alt="star" />
       </form>
     </div>
   );

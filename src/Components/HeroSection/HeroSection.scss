@@ -4,8 +4,6 @@
 .circle4 {
   background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
   box-shadow: inset 2px 4px 100px #001d6e;
-  // height: 150px;
-  // width: 150px;
   border-radius: 50%;
 }
 .circle1 {
@@ -67,6 +65,7 @@
     #heroP {
       margin: 0.3rem 0.5rem;
       padding: 0.12rem 0.2rem;
+      font-size: 20px;
     }
   }
   form {
@@ -79,7 +78,7 @@
       border-radius: 10px;
       padding: 1rem 2rem;
       color: #fcfcfc;
-      width: 25rem;
+      width: 23.5rem;
       // outline: #fcfcfc;
       border: none;
       background-color: transparent;
@@ -127,6 +126,17 @@
       .btnForm {
         width: 15rem;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero {
+    h1 {
+      font-size: 2.5rem;
+    }
+    #heroP {
+      font-size: 18px;
     }
   }
 }

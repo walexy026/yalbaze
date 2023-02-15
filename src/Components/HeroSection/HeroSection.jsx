@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.scss";
+import star from "../../Assets/Star2.svg";
 import { FiMail } from "react-icons/fi";
 import { BsPersonCircle } from "react-icons/bs";
 import { useState } from "react";
@@ -41,10 +42,12 @@ export const HeroSection = () => {
       <div className="circle1"></div>
       <div className="hero">
         {/* <div className="circle2"></div> */}
+        <img src={star} alt="star" />
         <h1>
           Turn your best customers into <b> Loyal fans</b>
         </h1>
         <div className="circle3"></div>
+        <img src={star} alt="star" />
         <p id="heroP">
           Loyalbaze,empowers businesses to offer digital, mobile-first loyalty
           programs to their customers. With our AI Powered platform, you can
