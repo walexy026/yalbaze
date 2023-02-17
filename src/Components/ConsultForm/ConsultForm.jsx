@@ -43,9 +43,9 @@ export const ConsultForm = () => {
             ></textarea>
           </div>
           <button className="btnForm">Send Request</button>
-          <img src={star} alt="star" />
         </form>
       </div>
+      <img className="img3" src={star} alt="star" />
       {/* <Select options={options} value={value} onChange={changeHandler} /> */}
     </div>
   );
