@@ -6,6 +6,18 @@
   margin-bottom: 2rem;
   border-radius: 20px;
   background-color: #1d2939;
+  position: relative;
+  .img5 {
+    position: absolute;
+    right: 150px;
+    top: -80px;
+  }
+  .img6 {
+    position: absolute;
+    left: -137px;
+    top: -20px;
+  }
+
   .formConsult {
     display: flex;
     align-items: center;

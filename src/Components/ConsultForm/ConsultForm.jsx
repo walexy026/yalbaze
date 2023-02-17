@@ -11,32 +11,83 @@ export const ConsultForm = () => {
   // const changeHandler = (value) => {
   //   setValue(value);
   // };
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [company, setCompany] = useState("");
+  const [textarea, setTextarea] = useState("");
+  const [error, setError] = useState(true);
+  const nameChange = (e) => {
+    setName(e.target.value);
+    console.log(e);
+  };
+  const emailChange = (e) => {
+    setEmail(e.target.value);
+  };
+  const phoneChange = (e) => {
+    setPhone(e.target.value);
+  };
+  const companyChange = (e) => {
+    setCompany(e.target.value);
+  };
+  const textareaChange = (e) => {
+    setTextarea(e.target.value);
+  };
+  const formSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div>
-      <img src={cube} alt="cube" />
-      <img src={cube} alt="cube" />
       <div className="consultForm">
-        <form className="formConsult" action="">
+        <img className="img5" src={cube} alt="cube" />
+        <img className="img6" src={cube} alt="cube" />
+        <form className="formConsult" action="" onSubmit={formSubmit}>
           <h2>Book a Consultation with us</h2>
-          <label htmlFor=""></label>
-          <input type="text" name="" id="" placeholder="Enter your full name" />
           <label htmlFor=""></label>
           <input
             type="text"
             name=""
             id=""
+            value={name}
+            onChange={nameChange}
+            placeholder="Enter your full name"
+          />
+          <label htmlFor=""></label>
+          <input
+            type="text"
+            value={email}
+            onChange={emailChange}
+            name=""
+            id=""
             placeholder="Enter your work email"
           />
           <label htmlFor=""></label>
-          <input type="num" name="" id="" placeholder="Mobile number" />
+          <input
+            type="num"
+            value={phone}
+            onChange={phoneChange}
+            name=""
+            id=""
+            placeholder="Mobile number"
+          />
           <label htmlFor=""></label>
-          <input type="text" name="" id="" placeholder="Company Name" />
+          <input
+            type="text"
+            name=""
+            value={company}
+            onChange={companyChange}
+            id=""
+            placeholder="Company Name"
+          />
           <label htmlFor=""></label>
           <input type="text" name="" id="" />
           <div className="txArea">
             <textarea
               name=""
               id=""
+              value={textarea}
+              onChange={textareaChange}
               cols="40"
               rows="15"
               placeholder="Drop a message....."
