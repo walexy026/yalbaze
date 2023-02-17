@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useMemo, useState } from "react";
 import star from "../../Assets/Star2.svg";
 import cube from "../../Assets/cube.svg";
-
 import "./ConsultForm.scss";
-import { CountriesDropdown } from "../../CountriesDropdown";
+// import Select from "react-select-country-list";
+// import countryList from "react-select-country-list";
+
 export const ConsultForm = () => {
+  // const [value, setValue] = useState("");
+  // const options = useMemo(() => countryList().getData(), []);
+  // const changeHandler = (value) => {
+  //   setValue(value);
+  // };
   return (
     <div>
       <img src={cube} alt="cube" />
@@ -39,8 +45,8 @@ export const ConsultForm = () => {
           <button className="btnForm">Send Request</button>
           <img src={star} alt="star" />
         </form>
-        <CountriesDropdown />
       </div>
+      {/* <Select options={options} value={value} onChange={changeHandler} /> */}
     </div>
   );
 };

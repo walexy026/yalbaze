@@ -7,8 +7,8 @@ import { ConsultForm } from "../ConsultForm/ConsultForm";
 export const Priotize = () => {
   return (
     <div className="priotizeSection">
-      <img src={star} alt="star" />
-      <img src={star} alt="star" />
+      <img src={star} width="30px" height="36px" alt="star" />
+      <img src={star} width="30px" height="36px" alt="star" />
       <div className="priptizeText">
         <img src={star} alt="star" />
         <h2>Priority Access</h2>

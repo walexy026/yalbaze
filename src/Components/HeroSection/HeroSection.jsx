@@ -42,12 +42,12 @@ export const HeroSection = () => {
       <div className="circle1"></div>
       <div className="hero">
         {/* <div className="circle2"></div> */}
-        <img src={star} alt="star" />
         <h1>
+          <img className="img1" src={star} alt="star" />
           Turn your best customers into <b> Loyal fans</b>
+          <img src={star} alt="star" className="img2" />
         </h1>
         <div className="circle3"></div>
-        <img src={star} alt="star" />
         <p id="heroP">
           Loyalbaze,empowers businesses to offer digital, mobile-first loyalty
           programs to their customers. With our AI Powered platform, you can
