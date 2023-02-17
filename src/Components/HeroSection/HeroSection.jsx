@@ -4,7 +4,7 @@ import star from "../../Assets/Star2.svg";
 import { FiMail } from "react-icons/fi";
 import { BsPersonCircle } from "react-icons/bs";
 import { useState } from "react";
-
+import curvedArrow from "../../Assets/curvedArrow.svg";
 // import {Fa-ring} from 'react-icons/fa'
 export const HeroSection = () => {
   const [yourname, setYourname] = useState("");
@@ -56,6 +56,12 @@ export const HeroSection = () => {
           business. Sign up now to get early access.
         </p>
         <form action="" onSubmit={submitformhandler}>
+          <img
+            src={curvedArrow}
+            alt="curvedArrow"
+            width="150px"
+            height="150px"
+          />
           <div className={classes}>
             <label htmlFor="text"></label>
 
