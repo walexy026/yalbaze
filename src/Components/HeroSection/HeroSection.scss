@@ -23,7 +23,7 @@
   filter: blur(15px);
   clip-path: circle(55.4% at 100% 50%);
   position: absolute;
-  right: 50px;
+  right: 10px;
   top: 25rem;
   overflow: hidden;
 }
@@ -38,7 +38,7 @@
   text-align: center;
   h1 {
     color: #fcfcfc;
-    font-size: 4rem;
+    font-size: 5rem;
     font-style: normal;
     font-weight: 900;
     position: relative;
@@ -140,6 +140,9 @@
       font-size: 3rem;
     }
     form {
+      img {
+        display: none;
+      }
       .formTx {
         width: 15rem;
       }
