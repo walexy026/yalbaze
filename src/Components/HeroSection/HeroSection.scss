@@ -1,6 +1,5 @@
 .circle1,
 .circle2,
-.circle3,
 .circle4 {
   background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
   box-shadow: inset 2px 4px 100px #001d6e;
@@ -18,14 +17,15 @@
   height: 100px;
 }
 .circle3 {
-  width: 300px;
-  height: 300px;
-  filter: blur(15px);
-  clip-path: circle(55.4% at 100% 50%);
+  // width: 500px;
+  // height: 500px;
+  // filter: blur(15px);
+  // clip-path: circle(55.4% at 100% 50%);
+  // clip-path: inset(5% 0 15% 10%);
   position: absolute;
-  right: 10px;
-  top: 25rem;
-  overflow: hidden;
+  right: 0;
+  top: 15rem;
+  overflow-x: hidden;
 }
 .circle4 {
   width: 110px;
@@ -35,10 +35,11 @@
 }
 
 .hero {
+  overflow: hidden;
   text-align: center;
   h1 {
     color: #fcfcfc;
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 900;
     position: relative;

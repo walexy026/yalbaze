@@ -4,6 +4,7 @@ import star from "../../Assets/Star2.svg";
 import { FiMail } from "react-icons/fi";
 import { BsPersonCircle } from "react-icons/bs";
 import { useState } from "react";
+import circle from "../../Assets/cirlceEclpise.svg";
 import curvedArrow from "../../Assets/curvedArrow.svg";
 // import {Fa-ring} from 'react-icons/fa'
 export const HeroSection = () => {
@@ -47,7 +48,9 @@ export const HeroSection = () => {
           Turn your best customers into <b> Loyal fans</b>
           <img src={star} alt="star" className="img2" />
         </h1>
-        <div className="circle3"></div>
+        <div className="circle3">
+          <img src={circle} alt="circle" />{" "}
+        </div>
         <p id="heroP">
           Loyalbaze,empowers businesses to offer digital, mobile-first loyalty
           programs to their customers. With our AI Powered platform, you can

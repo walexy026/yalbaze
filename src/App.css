@@ -3,5 +3,5 @@
   font-family: "Satoshi", sans-serif;
   background: #121b27;
   padding: 2rem 1rem;
-  overflow: hidden;
+  overflow: hidden !important;
 }
